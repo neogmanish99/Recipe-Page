@@ -29,7 +29,7 @@ h2 {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
-.secondary-container {
+.card {
     width: 98%;
     margin: auto;
 }
@@ -59,7 +59,7 @@ p {
     color: hsl(30, 10%, 34%);
 }
 
-.info {
+.card__info {
     /* margin-top: 50px;
     margin-left: 30px; */
     margin-top: 50px;
@@ -68,52 +68,58 @@ p {
     background-color: hsl(330, 100%, 98%);
 }
 
-.info h3 {
+.card__info h3 {
     color: hsl(332, 51%, 32%);
 }
-.info span {
+.card__info span {
     font-weight: 800;
 }
-.info ul {
+.card__infolist {
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     padding-top: 15px;
     padding-left: 15px;
 }
-.info ul li {
+.card__infolist li {
     line-height: 2em;
 }
 
-.ingredients {
+.card__ingredients {
     margin-top: 40px;
     border-bottom: 1px dotted hsl(14, 45%, 36%);
     padding-bottom: 30px;
 }
 
-.ingredients ul {
+.card__ingredientslist {
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     padding-top: 20px;
     padding-left: 30px;
 }
-.ingredients ul li {
+.card__ingredientslist li {
     line-height: 2em;
 }
 
-.instructions {
+.card__instructions {
     margin-top: 30px;
     border-bottom: 1px dotted hsl(14, 45%, 36%);
     padding-bottom: 30px;
 }
 
-.instructions ol {
-    padding-left: 30px;
+.card__instructionslist {
+    padding-left: 10px;
     padding-top: 30px;
     line-height: 2em;
     font-weight: 300;
-}
 
-/* .instructions ol li::before {
-    content: counter(num) ". ";
+    list-style: none;
+    counter-reset: list-counter;
+}
+.card__instructionslist li {
+    counter-increment: list-counter;
+}
+.card__instructionslist li::before {
+    content: counter(list-counter) ". ";
     font-weight: 800;
-} */
+    color: hsl(14, 45%, 36%);
+}
