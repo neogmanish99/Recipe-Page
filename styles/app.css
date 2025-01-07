@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    line-height: 1.5em;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+}
+span {
+    font-weight: 800;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    max-width: 55%;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.secondary-container {
+    width: 98%;
+    margin: auto;
+}
+
+.img {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    background: url("/assets/images/image-omelette.jpeg") no-repeat center
+        center/cover;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 40px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+p {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+.info {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.info h3 {
+    color: hsl(332, 51%, 32%);
+}
+.info span {
+    font-weight: 800;
+}
+.info ul {
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.info ul li {
+    line-height: 2em;
+}
+
+.ingredients {
+    margin-top: 40px;
+    border-bottom: 1px dotted hsl(14, 45%, 36%);
+    padding-bottom: 30px;
+}
+
+.ingredients ul {
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.ingredients ul li {
+    line-height: 2em;
+}
+
+.instructions {
+    margin-top: 30px;
+    border-bottom: 1px dotted hsl(14, 45%, 36%);
+    padding-bottom: 30px;
+}
+
+.instructions ol {
+    padding-left: 30px;
+    padding-top: 30px;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+/* .instructions ol li::before {
+    content: counter(num) ". ";
+    font-weight: 800;
+} */
