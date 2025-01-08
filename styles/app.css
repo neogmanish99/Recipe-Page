@@ -18,7 +18,7 @@ span {
 
 .card__spacing {
     margin-top: 30px;
-    border-bottom: 1px dotted hsl(14, 45%, 36%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     padding-bottom: 30px;
 }
 .card__spacing--primary {
@@ -142,7 +142,7 @@ p {
 .card__tablebody tr td {
     font-weight: 300;
     padding: 5px 0 15px 30px;
-    border-bottom: 1px dotted hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 .card__tablebody tr:last-child td {
     border-bottom: none;
